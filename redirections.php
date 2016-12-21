@@ -10,9 +10,10 @@
     // $key = source / $value = destination
     $urlCorrespondences = array(); 
     
-    // example = you modify and add our redirections here
+    // example = you can modify and add your redirections here
     $urlCorrespondences['/directory/index.php'] = "/index.php";
     $urlCorrespondences['/file.php'] = "/file2.php";
+    // ...
     
      // test if current url is in $urlCorrespondences array
     foreach ($urlCorrespondences as $key=>$value) {
